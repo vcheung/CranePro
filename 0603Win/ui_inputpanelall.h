@@ -1,0 +1,456 @@
+/********************************************************************************
+** Form generated from reading UI file 'inputpanelall.ui'
+**
+** Created: Mon Dec 31 15:20:21 2012
+**      by: Qt User Interface Compiler version 4.7.4
+**
+** WARNING! All changes made in this file will be lost when recompiling UI file!
+********************************************************************************/
+
+#ifndef UI_INPUTPANELALL_H
+#define UI_INPUTPANELALL_H
+
+#include <QtCore/QVariant>
+#include <QtGui/QAction>
+#include <QtGui/QApplication>
+#include <QtGui/QButtonGroup>
+#include <QtGui/QHeaderView>
+#include <QtGui/QPushButton>
+#include <QtGui/QWidget>
+
+QT_BEGIN_NAMESPACE
+
+class Ui_InputPanelAll
+{
+public:
+    QPushButton *panelButton_Minus;
+    QPushButton *panelButton_K;
+    QPushButton *panelButton_P;
+    QPushButton *panelButton_5;
+    QPushButton *panelButton_U;
+    QPushButton *panelButton_C;
+    QPushButton *panelButton_J;
+    QPushButton *panelButton_B;
+    QPushButton *panelButton_0;
+    QPushButton *panelButton_E;
+    QPushButton *panelButton_4;
+    QPushButton *panelButton_8;
+    QPushButton *panelButton_Q;
+    QPushButton *panelButton_D;
+    QPushButton *panelButton_W;
+    QPushButton *panelButton_L;
+    QPushButton *panelButton_9;
+    QPushButton *panelButton_G;
+    QPushButton *panelButton_X;
+    QPushButton *panelButton_3;
+    QPushButton *panelButton_7;
+    QPushButton *panelButton_H;
+    QPushButton *panelButton_V;
+    QPushButton *panelButton_T;
+    QPushButton *Enter;
+    QPushButton *panelButton_O;
+    QPushButton *panelButton_2;
+    QPushButton *BackSpace;
+    QPushButton *panelButton_S;
+    QPushButton *panelButton_M;
+    QPushButton *panelButton_I;
+    QPushButton *panelButton_A;
+    QPushButton *panelButton_Dot;
+    QPushButton *panelButton_N;
+    QPushButton *panelButton_6;
+    QPushButton *panelButton_1;
+    QPushButton *panelButton_Z;
+    QPushButton *panelButton_R;
+    QPushButton *panelButton_Y;
+    QPushButton *panelButton_F;
+
+    void setupUi(QWidget *InputPanelAll)
+    {
+        if (InputPanelAll->objectName().isEmpty())
+            InputPanelAll->setObjectName(QString::fromUtf8("InputPanelAll"));
+        InputPanelAll->resize(645, 192);
+        panelButton_Minus = new QPushButton(InputPanelAll);
+        panelButton_Minus->setObjectName(QString::fromUtf8("panelButton_Minus"));
+        panelButton_Minus->setGeometry(QRect(600, 50, 45, 40));
+        QSizePolicy sizePolicy(QSizePolicy::Minimum, QSizePolicy::Minimum);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(panelButton_Minus->sizePolicy().hasHeightForWidth());
+        panelButton_Minus->setSizePolicy(sizePolicy);
+        panelButton_Minus->setMinimumSize(QSize(45, 40));
+        panelButton_Minus->setFocusPolicy(Qt::NoFocus);
+        panelButton_Minus->setProperty("buttonValue", QVariant(QChar(45)));
+        panelButton_K = new QPushButton(InputPanelAll);
+        panelButton_K->setObjectName(QString::fromUtf8("panelButton_K"));
+        panelButton_K->setGeometry(QRect(470, 100, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_K->sizePolicy().hasHeightForWidth());
+        panelButton_K->setSizePolicy(sizePolicy);
+        panelButton_K->setMinimumSize(QSize(45, 40));
+        panelButton_K->setFocusPolicy(Qt::NoFocus);
+        panelButton_K->setProperty("buttonValue", QVariant(QChar(75)));
+        panelButton_P = new QPushButton(InputPanelAll);
+        panelButton_P->setObjectName(QString::fromUtf8("panelButton_P"));
+        panelButton_P->setGeometry(QRect(540, 50, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_P->sizePolicy().hasHeightForWidth());
+        panelButton_P->setSizePolicy(sizePolicy);
+        panelButton_P->setMinimumSize(QSize(45, 40));
+        panelButton_P->setFocusPolicy(Qt::NoFocus);
+        panelButton_P->setProperty("buttonValue", QVariant(QChar(80)));
+        panelButton_5 = new QPushButton(InputPanelAll);
+        panelButton_5->setObjectName(QString::fromUtf8("panelButton_5"));
+        panelButton_5->setGeometry(QRect(240, 0, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_5->sizePolicy().hasHeightForWidth());
+        panelButton_5->setSizePolicy(sizePolicy);
+        panelButton_5->setMinimumSize(QSize(45, 40));
+        panelButton_5->setFocusPolicy(Qt::NoFocus);
+        panelButton_5->setProperty("buttonValue", QVariant(QChar(53)));
+        panelButton_U = new QPushButton(InputPanelAll);
+        panelButton_U->setObjectName(QString::fromUtf8("panelButton_U"));
+        panelButton_U->setGeometry(QRect(360, 50, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_U->sizePolicy().hasHeightForWidth());
+        panelButton_U->setSizePolicy(sizePolicy);
+        panelButton_U->setMinimumSize(QSize(45, 40));
+        panelButton_U->setFocusPolicy(Qt::NoFocus);
+        panelButton_U->setProperty("buttonValue", QVariant(QChar(85)));
+        panelButton_C = new QPushButton(InputPanelAll);
+        panelButton_C->setObjectName(QString::fromUtf8("panelButton_C"));
+        panelButton_C->setGeometry(QRect(140, 150, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_C->sizePolicy().hasHeightForWidth());
+        panelButton_C->setSizePolicy(sizePolicy);
+        panelButton_C->setMinimumSize(QSize(45, 40));
+        panelButton_C->setFocusPolicy(Qt::NoFocus);
+        panelButton_C->setProperty("buttonValue", QVariant(QChar(67)));
+        panelButton_J = new QPushButton(InputPanelAll);
+        panelButton_J->setObjectName(QString::fromUtf8("panelButton_J"));
+        panelButton_J->setGeometry(QRect(410, 100, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_J->sizePolicy().hasHeightForWidth());
+        panelButton_J->setSizePolicy(sizePolicy);
+        panelButton_J->setMinimumSize(QSize(45, 40));
+        panelButton_J->setFocusPolicy(Qt::NoFocus);
+        panelButton_J->setProperty("buttonValue", QVariant(QChar(74)));
+        panelButton_B = new QPushButton(InputPanelAll);
+        panelButton_B->setObjectName(QString::fromUtf8("panelButton_B"));
+        panelButton_B->setGeometry(QRect(260, 150, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_B->sizePolicy().hasHeightForWidth());
+        panelButton_B->setSizePolicy(sizePolicy);
+        panelButton_B->setMinimumSize(QSize(45, 40));
+        panelButton_B->setFocusPolicy(Qt::NoFocus);
+        panelButton_B->setProperty("buttonValue", QVariant(QChar(66)));
+        panelButton_0 = new QPushButton(InputPanelAll);
+        panelButton_0->setObjectName(QString::fromUtf8("panelButton_0"));
+        panelButton_0->setGeometry(QRect(540, 0, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_0->sizePolicy().hasHeightForWidth());
+        panelButton_0->setSizePolicy(sizePolicy);
+        panelButton_0->setMinimumSize(QSize(45, 40));
+        panelButton_0->setFocusPolicy(Qt::NoFocus);
+        panelButton_0->setProperty("buttonValue", QVariant(QChar(48)));
+        panelButton_E = new QPushButton(InputPanelAll);
+        panelButton_E->setObjectName(QString::fromUtf8("panelButton_E"));
+        panelButton_E->setGeometry(QRect(120, 50, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_E->sizePolicy().hasHeightForWidth());
+        panelButton_E->setSizePolicy(sizePolicy);
+        panelButton_E->setMinimumSize(QSize(45, 40));
+        panelButton_E->setFocusPolicy(Qt::NoFocus);
+        panelButton_E->setProperty("buttonValue", QVariant(QChar(69)));
+        panelButton_4 = new QPushButton(InputPanelAll);
+        panelButton_4->setObjectName(QString::fromUtf8("panelButton_4"));
+        panelButton_4->setGeometry(QRect(180, 0, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_4->sizePolicy().hasHeightForWidth());
+        panelButton_4->setSizePolicy(sizePolicy);
+        panelButton_4->setMinimumSize(QSize(45, 40));
+        panelButton_4->setFocusPolicy(Qt::NoFocus);
+        panelButton_4->setProperty("buttonValue", QVariant(QChar(52)));
+        panelButton_8 = new QPushButton(InputPanelAll);
+        panelButton_8->setObjectName(QString::fromUtf8("panelButton_8"));
+        panelButton_8->setGeometry(QRect(420, 0, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_8->sizePolicy().hasHeightForWidth());
+        panelButton_8->setSizePolicy(sizePolicy);
+        panelButton_8->setMinimumSize(QSize(45, 40));
+        panelButton_8->setFocusPolicy(Qt::NoFocus);
+        panelButton_8->setProperty("buttonValue", QVariant(QChar(56)));
+        panelButton_Q = new QPushButton(InputPanelAll);
+        panelButton_Q->setObjectName(QString::fromUtf8("panelButton_Q"));
+        panelButton_Q->setGeometry(QRect(-1, 49, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_Q->sizePolicy().hasHeightForWidth());
+        panelButton_Q->setSizePolicy(sizePolicy);
+        panelButton_Q->setMinimumSize(QSize(45, 40));
+        panelButton_Q->setFocusPolicy(Qt::NoFocus);
+        panelButton_Q->setProperty("buttonValue", QVariant(QChar(81)));
+        panelButton_D = new QPushButton(InputPanelAll);
+        panelButton_D->setObjectName(QString::fromUtf8("panelButton_D"));
+        panelButton_D->setGeometry(QRect(170, 100, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_D->sizePolicy().hasHeightForWidth());
+        panelButton_D->setSizePolicy(sizePolicy);
+        panelButton_D->setMinimumSize(QSize(45, 40));
+        panelButton_D->setFocusPolicy(Qt::NoFocus);
+        panelButton_D->setProperty("buttonValue", QVariant(QChar(68)));
+        panelButton_W = new QPushButton(InputPanelAll);
+        panelButton_W->setObjectName(QString::fromUtf8("panelButton_W"));
+        panelButton_W->setGeometry(QRect(60, 50, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_W->sizePolicy().hasHeightForWidth());
+        panelButton_W->setSizePolicy(sizePolicy);
+        panelButton_W->setMinimumSize(QSize(45, 40));
+        panelButton_W->setFocusPolicy(Qt::NoFocus);
+        panelButton_W->setProperty("buttonValue", QVariant(QChar(87)));
+        panelButton_L = new QPushButton(InputPanelAll);
+        panelButton_L->setObjectName(QString::fromUtf8("panelButton_L"));
+        panelButton_L->setGeometry(QRect(530, 100, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_L->sizePolicy().hasHeightForWidth());
+        panelButton_L->setSizePolicy(sizePolicy);
+        panelButton_L->setMinimumSize(QSize(45, 40));
+        panelButton_L->setFocusPolicy(Qt::NoFocus);
+        panelButton_L->setProperty("buttonValue", QVariant(QChar(76)));
+        panelButton_9 = new QPushButton(InputPanelAll);
+        panelButton_9->setObjectName(QString::fromUtf8("panelButton_9"));
+        panelButton_9->setGeometry(QRect(480, 0, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_9->sizePolicy().hasHeightForWidth());
+        panelButton_9->setSizePolicy(sizePolicy);
+        panelButton_9->setMinimumSize(QSize(45, 40));
+        panelButton_9->setFocusPolicy(Qt::NoFocus);
+        panelButton_9->setProperty("buttonValue", QVariant(QChar(57)));
+        panelButton_G = new QPushButton(InputPanelAll);
+        panelButton_G->setObjectName(QString::fromUtf8("panelButton_G"));
+        panelButton_G->setGeometry(QRect(290, 100, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_G->sizePolicy().hasHeightForWidth());
+        panelButton_G->setSizePolicy(sizePolicy);
+        panelButton_G->setMinimumSize(QSize(45, 40));
+        panelButton_G->setFocusPolicy(Qt::NoFocus);
+        panelButton_G->setProperty("buttonValue", QVariant(QChar(71)));
+        panelButton_X = new QPushButton(InputPanelAll);
+        panelButton_X->setObjectName(QString::fromUtf8("panelButton_X"));
+        panelButton_X->setGeometry(QRect(80, 150, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_X->sizePolicy().hasHeightForWidth());
+        panelButton_X->setSizePolicy(sizePolicy);
+        panelButton_X->setMinimumSize(QSize(45, 40));
+        panelButton_X->setFocusPolicy(Qt::NoFocus);
+        panelButton_X->setProperty("buttonValue", QVariant(QChar(88)));
+        panelButton_3 = new QPushButton(InputPanelAll);
+        panelButton_3->setObjectName(QString::fromUtf8("panelButton_3"));
+        panelButton_3->setGeometry(QRect(120, 0, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_3->sizePolicy().hasHeightForWidth());
+        panelButton_3->setSizePolicy(sizePolicy);
+        panelButton_3->setMinimumSize(QSize(45, 40));
+        panelButton_3->setFocusPolicy(Qt::NoFocus);
+        panelButton_3->setProperty("buttonValue", QVariant(QChar(51)));
+        panelButton_7 = new QPushButton(InputPanelAll);
+        panelButton_7->setObjectName(QString::fromUtf8("panelButton_7"));
+        panelButton_7->setGeometry(QRect(360, 0, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_7->sizePolicy().hasHeightForWidth());
+        panelButton_7->setSizePolicy(sizePolicy);
+        panelButton_7->setMinimumSize(QSize(45, 40));
+        panelButton_7->setFocusPolicy(Qt::NoFocus);
+        panelButton_7->setProperty("buttonValue", QVariant(QChar(55)));
+        panelButton_H = new QPushButton(InputPanelAll);
+        panelButton_H->setObjectName(QString::fromUtf8("panelButton_H"));
+        panelButton_H->setGeometry(QRect(350, 100, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_H->sizePolicy().hasHeightForWidth());
+        panelButton_H->setSizePolicy(sizePolicy);
+        panelButton_H->setMinimumSize(QSize(45, 40));
+        panelButton_H->setFocusPolicy(Qt::NoFocus);
+        panelButton_H->setProperty("buttonValue", QVariant(QChar(72)));
+        panelButton_V = new QPushButton(InputPanelAll);
+        panelButton_V->setObjectName(QString::fromUtf8("panelButton_V"));
+        panelButton_V->setGeometry(QRect(200, 150, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_V->sizePolicy().hasHeightForWidth());
+        panelButton_V->setSizePolicy(sizePolicy);
+        panelButton_V->setMinimumSize(QSize(45, 40));
+        panelButton_V->setFocusPolicy(Qt::NoFocus);
+        panelButton_V->setProperty("buttonValue", QVariant(QChar(86)));
+        panelButton_T = new QPushButton(InputPanelAll);
+        panelButton_T->setObjectName(QString::fromUtf8("panelButton_T"));
+        panelButton_T->setGeometry(QRect(240, 50, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_T->sizePolicy().hasHeightForWidth());
+        panelButton_T->setSizePolicy(sizePolicy);
+        panelButton_T->setMinimumSize(QSize(45, 40));
+        panelButton_T->setFocusPolicy(Qt::NoFocus);
+        panelButton_T->setProperty("buttonValue", QVariant(QChar(84)));
+        Enter = new QPushButton(InputPanelAll);
+        Enter->setObjectName(QString::fromUtf8("Enter"));
+        Enter->setGeometry(QRect(560, 150, 81, 40));
+        Enter->setMinimumSize(QSize(75, 40));
+        QFont font;
+        font.setFamily(QString::fromUtf8("\346\245\267\344\275\223"));
+        font.setPointSize(15);
+        font.setBold(false);
+        font.setItalic(false);
+        font.setWeight(50);
+        Enter->setFont(font);
+        Enter->setFocusPolicy(Qt::NoFocus);
+        panelButton_O = new QPushButton(InputPanelAll);
+        panelButton_O->setObjectName(QString::fromUtf8("panelButton_O"));
+        panelButton_O->setGeometry(QRect(480, 50, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_O->sizePolicy().hasHeightForWidth());
+        panelButton_O->setSizePolicy(sizePolicy);
+        panelButton_O->setMinimumSize(QSize(45, 40));
+        panelButton_O->setFocusPolicy(Qt::NoFocus);
+        panelButton_O->setProperty("buttonValue", QVariant(QChar(79)));
+        panelButton_2 = new QPushButton(InputPanelAll);
+        panelButton_2->setObjectName(QString::fromUtf8("panelButton_2"));
+        panelButton_2->setGeometry(QRect(60, 0, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_2->sizePolicy().hasHeightForWidth());
+        panelButton_2->setSizePolicy(sizePolicy);
+        panelButton_2->setMinimumSize(QSize(45, 40));
+        panelButton_2->setFocusPolicy(Qt::NoFocus);
+        panelButton_2->setProperty("buttonValue", QVariant(QChar(50)));
+        BackSpace = new QPushButton(InputPanelAll);
+        BackSpace->setObjectName(QString::fromUtf8("BackSpace"));
+        BackSpace->setGeometry(QRect(450, 150, 101, 40));
+        BackSpace->setMinimumSize(QSize(75, 40));
+        BackSpace->setFont(font);
+        BackSpace->setFocusPolicy(Qt::NoFocus);
+        panelButton_S = new QPushButton(InputPanelAll);
+        panelButton_S->setObjectName(QString::fromUtf8("panelButton_S"));
+        panelButton_S->setGeometry(QRect(110, 100, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_S->sizePolicy().hasHeightForWidth());
+        panelButton_S->setSizePolicy(sizePolicy);
+        panelButton_S->setMinimumSize(QSize(45, 40));
+        panelButton_S->setFocusPolicy(Qt::NoFocus);
+        panelButton_S->setProperty("buttonValue", QVariant(QChar(83)));
+        panelButton_M = new QPushButton(InputPanelAll);
+        panelButton_M->setObjectName(QString::fromUtf8("panelButton_M"));
+        panelButton_M->setGeometry(QRect(380, 150, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_M->sizePolicy().hasHeightForWidth());
+        panelButton_M->setSizePolicy(sizePolicy);
+        panelButton_M->setMinimumSize(QSize(45, 40));
+        panelButton_M->setFocusPolicy(Qt::NoFocus);
+        panelButton_M->setProperty("buttonValue", QVariant(QChar(77)));
+        panelButton_I = new QPushButton(InputPanelAll);
+        panelButton_I->setObjectName(QString::fromUtf8("panelButton_I"));
+        panelButton_I->setGeometry(QRect(420, 50, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_I->sizePolicy().hasHeightForWidth());
+        panelButton_I->setSizePolicy(sizePolicy);
+        panelButton_I->setMinimumSize(QSize(45, 40));
+        panelButton_I->setFocusPolicy(Qt::NoFocus);
+        panelButton_I->setProperty("buttonValue", QVariant(QChar(73)));
+        panelButton_A = new QPushButton(InputPanelAll);
+        panelButton_A->setObjectName(QString::fromUtf8("panelButton_A"));
+        panelButton_A->setGeometry(QRect(50, 100, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_A->sizePolicy().hasHeightForWidth());
+        panelButton_A->setSizePolicy(sizePolicy);
+        panelButton_A->setMinimumSize(QSize(45, 40));
+        panelButton_A->setFocusPolicy(Qt::NoFocus);
+        panelButton_A->setProperty("buttonValue", QVariant(QChar(65)));
+        panelButton_Dot = new QPushButton(InputPanelAll);
+        panelButton_Dot->setObjectName(QString::fromUtf8("panelButton_Dot"));
+        panelButton_Dot->setGeometry(QRect(600, 0, 45, 40));
+        sizePolicy.setHeightForWidth(panelButton_Dot->sizePolicy().hasHeightForWidth());
+        panelButton_Dot->setSizePolicy(sizePolicy);
+        panelButton_Dot->setMinimumSize(QSize(45, 40));
+        panelButton_Dot->setFocusPolicy(Qt::NoFocus);
+        panelButton_Dot->setProperty("buttonValue", QVariant(QChar(46)));
+        panelButton_N = new QPushButton(InputPanelAll);
+        panelButton_N->setObjectName(QString::fromUtf8("panelButton_N"));
+        panelButton_N->setGeometry(QRect(320, 150, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_N->sizePolicy().hasHeightForWidth());
+        panelButton_N->setSizePolicy(sizePolicy);
+        panelButton_N->setMinimumSize(QSize(45, 40));
+        panelButton_N->setFocusPolicy(Qt::NoFocus);
+        panelButton_N->setProperty("buttonValue", QVariant(QChar(78)));
+        panelButton_6 = new QPushButton(InputPanelAll);
+        panelButton_6->setObjectName(QString::fromUtf8("panelButton_6"));
+        panelButton_6->setGeometry(QRect(300, 0, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_6->sizePolicy().hasHeightForWidth());
+        panelButton_6->setSizePolicy(sizePolicy);
+        panelButton_6->setMinimumSize(QSize(45, 40));
+        panelButton_6->setFocusPolicy(Qt::NoFocus);
+        panelButton_6->setProperty("buttonValue", QVariant(QChar(54)));
+        panelButton_1 = new QPushButton(InputPanelAll);
+        panelButton_1->setObjectName(QString::fromUtf8("panelButton_1"));
+        panelButton_1->setGeometry(QRect(-1, -1, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_1->sizePolicy().hasHeightForWidth());
+        panelButton_1->setSizePolicy(sizePolicy);
+        panelButton_1->setMinimumSize(QSize(45, 40));
+        panelButton_1->setFocusPolicy(Qt::NoFocus);
+        panelButton_1->setProperty("buttonValue", QVariant(QChar(49)));
+        panelButton_Z = new QPushButton(InputPanelAll);
+        panelButton_Z->setObjectName(QString::fromUtf8("panelButton_Z"));
+        panelButton_Z->setGeometry(QRect(19, 149, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_Z->sizePolicy().hasHeightForWidth());
+        panelButton_Z->setSizePolicy(sizePolicy);
+        panelButton_Z->setMinimumSize(QSize(45, 40));
+        panelButton_Z->setFocusPolicy(Qt::NoFocus);
+        panelButton_Z->setProperty("buttonValue", QVariant(QChar(90)));
+        panelButton_R = new QPushButton(InputPanelAll);
+        panelButton_R->setObjectName(QString::fromUtf8("panelButton_R"));
+        panelButton_R->setGeometry(QRect(180, 50, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_R->sizePolicy().hasHeightForWidth());
+        panelButton_R->setSizePolicy(sizePolicy);
+        panelButton_R->setMinimumSize(QSize(45, 40));
+        panelButton_R->setFocusPolicy(Qt::NoFocus);
+        panelButton_R->setProperty("buttonValue", QVariant(QChar(82)));
+        panelButton_Y = new QPushButton(InputPanelAll);
+        panelButton_Y->setObjectName(QString::fromUtf8("panelButton_Y"));
+        panelButton_Y->setGeometry(QRect(300, 50, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_Y->sizePolicy().hasHeightForWidth());
+        panelButton_Y->setSizePolicy(sizePolicy);
+        panelButton_Y->setMinimumSize(QSize(45, 40));
+        panelButton_Y->setFocusPolicy(Qt::NoFocus);
+        panelButton_Y->setProperty("buttonValue", QVariant(QChar(89)));
+        panelButton_F = new QPushButton(InputPanelAll);
+        panelButton_F->setObjectName(QString::fromUtf8("panelButton_F"));
+        panelButton_F->setGeometry(QRect(230, 100, 51, 40));
+        sizePolicy.setHeightForWidth(panelButton_F->sizePolicy().hasHeightForWidth());
+        panelButton_F->setSizePolicy(sizePolicy);
+        panelButton_F->setMinimumSize(QSize(45, 40));
+        panelButton_F->setFocusPolicy(Qt::NoFocus);
+        panelButton_F->setProperty("buttonValue", QVariant(QChar(70)));
+
+        retranslateUi(InputPanelAll);
+
+        QMetaObject::connectSlotsByName(InputPanelAll);
+    } // setupUi
+
+    void retranslateUi(QWidget *InputPanelAll)
+    {
+        InputPanelAll->setWindowTitle(QApplication::translate("InputPanelAll", "Form", 0, QApplication::UnicodeUTF8));
+        panelButton_Minus->setText(QApplication::translate("InputPanelAll", "-", 0, QApplication::UnicodeUTF8));
+        panelButton_K->setText(QApplication::translate("InputPanelAll", "K", 0, QApplication::UnicodeUTF8));
+        panelButton_P->setText(QApplication::translate("InputPanelAll", "P", 0, QApplication::UnicodeUTF8));
+        panelButton_5->setText(QApplication::translate("InputPanelAll", "5", 0, QApplication::UnicodeUTF8));
+        panelButton_U->setText(QApplication::translate("InputPanelAll", "U", 0, QApplication::UnicodeUTF8));
+        panelButton_C->setText(QApplication::translate("InputPanelAll", "C", 0, QApplication::UnicodeUTF8));
+        panelButton_J->setText(QApplication::translate("InputPanelAll", "J", 0, QApplication::UnicodeUTF8));
+        panelButton_B->setText(QApplication::translate("InputPanelAll", "B", 0, QApplication::UnicodeUTF8));
+        panelButton_0->setText(QApplication::translate("InputPanelAll", "0", 0, QApplication::UnicodeUTF8));
+        panelButton_E->setText(QApplication::translate("InputPanelAll", "E", 0, QApplication::UnicodeUTF8));
+        panelButton_4->setText(QApplication::translate("InputPanelAll", "4", 0, QApplication::UnicodeUTF8));
+        panelButton_8->setText(QApplication::translate("InputPanelAll", "8", 0, QApplication::UnicodeUTF8));
+        panelButton_Q->setText(QApplication::translate("InputPanelAll", "Q", 0, QApplication::UnicodeUTF8));
+        panelButton_D->setText(QApplication::translate("InputPanelAll", "D", 0, QApplication::UnicodeUTF8));
+        panelButton_W->setText(QApplication::translate("InputPanelAll", "W", 0, QApplication::UnicodeUTF8));
+        panelButton_L->setText(QApplication::translate("InputPanelAll", "L", 0, QApplication::UnicodeUTF8));
+        panelButton_9->setText(QApplication::translate("InputPanelAll", "9", 0, QApplication::UnicodeUTF8));
+        panelButton_G->setText(QApplication::translate("InputPanelAll", "G", 0, QApplication::UnicodeUTF8));
+        panelButton_X->setText(QApplication::translate("InputPanelAll", "X", 0, QApplication::UnicodeUTF8));
+        panelButton_3->setText(QApplication::translate("InputPanelAll", "3", 0, QApplication::UnicodeUTF8));
+        panelButton_7->setText(QApplication::translate("InputPanelAll", "7", 0, QApplication::UnicodeUTF8));
+        panelButton_H->setText(QApplication::translate("InputPanelAll", "H", 0, QApplication::UnicodeUTF8));
+        panelButton_V->setText(QApplication::translate("InputPanelAll", "V", 0, QApplication::UnicodeUTF8));
+        panelButton_T->setText(QApplication::translate("InputPanelAll", "T", 0, QApplication::UnicodeUTF8));
+        Enter->setText(QApplication::translate("InputPanelAll", "Enter", 0, QApplication::UnicodeUTF8));
+        panelButton_O->setText(QApplication::translate("InputPanelAll", "O", 0, QApplication::UnicodeUTF8));
+        panelButton_2->setText(QApplication::translate("InputPanelAll", "2", 0, QApplication::UnicodeUTF8));
+        BackSpace->setText(QApplication::translate("InputPanelAll", "BackSpace", 0, QApplication::UnicodeUTF8));
+        panelButton_S->setText(QApplication::translate("InputPanelAll", "S", 0, QApplication::UnicodeUTF8));
+        panelButton_M->setText(QApplication::translate("InputPanelAll", "M", 0, QApplication::UnicodeUTF8));
+        panelButton_I->setText(QApplication::translate("InputPanelAll", "I", 0, QApplication::UnicodeUTF8));
+        panelButton_A->setText(QApplication::translate("InputPanelAll", "A", 0, QApplication::UnicodeUTF8));
+        panelButton_Dot->setText(QApplication::translate("InputPanelAll", ".", 0, QApplication::UnicodeUTF8));
+        panelButton_N->setText(QApplication::translate("InputPanelAll", "N", 0, QApplication::UnicodeUTF8));
+        panelButton_6->setText(QApplication::translate("InputPanelAll", "6", 0, QApplication::UnicodeUTF8));
+        panelButton_1->setText(QApplication::translate("InputPanelAll", "1", 0, QApplication::UnicodeUTF8));
+        panelButton_Z->setText(QApplication::translate("InputPanelAll", "Z", 0, QApplication::UnicodeUTF8));
+        panelButton_R->setText(QApplication::translate("InputPanelAll", "R", 0, QApplication::UnicodeUTF8));
+        panelButton_Y->setText(QApplication::translate("InputPanelAll", "Y", 0, QApplication::UnicodeUTF8));
+        panelButton_F->setText(QApplication::translate("InputPanelAll", "F", 0, QApplication::UnicodeUTF8));
+    } // retranslateUi
+
+};
+
+namespace Ui {
+    class InputPanelAll: public Ui_InputPanelAll {};
+} // namespace Ui
+
+QT_END_NAMESPACE
+
+#endif // UI_INPUTPANELALL_H

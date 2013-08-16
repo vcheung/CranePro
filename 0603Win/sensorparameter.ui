@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SensorParameter</class>
+ <widget class="QWidget" name="SensorParameter">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>514</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_5">
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(85, 170, 255);
+border-color: rgb(85, 170, 255);</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">font: 75 28pt &quot;黑体&quot;;
+color: rgb(255, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>传感器信号</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="1">
+         <widget class="QLabel" name="OnOffSenLab">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 125);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_3">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 125);
+background-color: rgb(184, 184, 255);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+          <property name="text">
+           <string>开闭传感器</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_4">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 125);
+background-color: rgb(184, 184, 255);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+          <property name="text">
+           <string>支持传感器</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_5">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 125);
+background-color: rgb(184, 184, 255);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+          <property name="text">
+           <string>角度传感器</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="label_6">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 125);
+background-color: rgb(184, 184, 255);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+          <property name="text">
+           <string>高度传感器</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="label_7">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 125);
+background-color: rgb(184, 184, 255);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+          <property name="text">
+           <string>角度</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLabel" name="AngleLab">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 125);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="label_9">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 125);
+background-color: rgb(184, 184, 255);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+          <property name="text">
+           <string>高度</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLabel" name="SupportLab">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 125);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLabel" name="AngleSenLab">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 125);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLabel" name="HeightSenLab">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 125);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QLabel" name="HeightLab">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 125);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QLabel" name="label_18">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 125);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Ma</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QLabel" name="label_19">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 125);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Ma</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <widget class="QLabel" name="label_20">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 125);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Ma</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="2">
+         <widget class="QLabel" name="label_21">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 125);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Ma</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="2">
+         <widget class="QLabel" name="label_22">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 125);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+          <property name="text">
+           <string>度</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="2">
+         <widget class="QLabel" name="label_23">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 125);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+          <property name="text">
+           <string>米</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>13</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_10">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 125);
+background-color: rgb(184, 184, 255);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+          <property name="text">
+           <string>高度零点</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="HeightZeroInputLine">
+          <property name="maximumSize">
+           <size>
+            <width>140</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(250, 255, 175);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="2">
+         <widget class="QLabel" name="label_24">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 125);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Ma</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_11">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 125);
+background-color: rgb(184, 184, 255);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+          <property name="text">
+           <string>高度系数</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="HeightCoefficientInput">
+          <property name="maximumSize">
+           <size>
+            <width>140</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(250, 255, 175);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QLabel" name="label_25">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 125);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Ma/M</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_2">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 125);
+background-color: rgb(184, 184, 255);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+          <property name="text">
+           <string>数据采集</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLineEdit" name="DataNum">
+          <property name="maximumSize">
+           <size>
+            <width>140</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(250, 255, 175);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <widget class="QLabel" name="label_8">
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 125);
+font: 75 20pt &quot;黑体&quot;;</string>
+          </property>
+          <property name="text">
+           <string>个</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QPushButton" name="ModifyCoeH">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 255);
+font: 75 20pt &quot;黑体&quot;;
+background-color: rgb(155, 200, 40);</string>
+          </property>
+          <property name="text">
+           <string>调系数</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <layout class="QVBoxLayout" name="verticalLayout_5">
+     <item>
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(85, 170, 255);
+border-color: rgb(85, 170, 255);</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_26">
+          <property name="styleSheet">
+           <string notr="true">font: 75 28pt &quot;黑体&quot;;
+color: rgb(255, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string>传感器调零</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <layout class="QGridLayout" name="gridLayout_3">
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_27">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 125);
+background-color: rgb(184, 184, 255);
+font: 75 20pt &quot;黑体&quot;;</string>
+              </property>
+              <property name="text">
+               <string>开闭零点</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_28">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 125);
+background-color: rgb(184, 184, 255);
+font: 75 20pt &quot;黑体&quot;;</string>
+              </property>
+              <property name="text">
+               <string>支持零点</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="QLabel" name="label_31">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 125);
+font: 75 20pt &quot;黑体&quot;;</string>
+              </property>
+              <property name="text">
+               <string>Ma</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLabel" name="label_32">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 125);
+font: 75 20pt &quot;黑体&quot;;</string>
+              </property>
+              <property name="text">
+               <string>Ma</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLineEdit" name="OnOffZeroInput">
+              <property name="maximumSize">
+               <size>
+                <width>140</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(250, 255, 175);
+font: 75 20pt &quot;黑体&quot;;</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLineEdit" name="SupportZeroInput">
+              <property name="maximumSize">
+               <size>
+                <width>140</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(250, 255, 175);
+font: 75 20pt &quot;黑体&quot;;</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QPushButton" name="ModifyOFSZero">
+            <property name="styleSheet">
+             <string notr="true">color: rgb(0, 0, 255);
+font: 75 20pt &quot;黑体&quot;;
+background-color: rgb(155, 200, 40);</string>
+            </property>
+            <property name="text">
+             <string>调零</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Maximum</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_3">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(85, 170, 255);
+border-color: rgb(85, 170, 255);</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QLabel" name="label_33">
+          <property name="styleSheet">
+           <string notr="true">font: 75 28pt &quot;黑体&quot;;
+color: rgb(255, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string>传感器系数</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <layout class="QGridLayout" name="gridLayout_4">
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_35">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 125);
+background-color: rgb(184, 184, 255);
+font: 75 20pt &quot;黑体&quot;;</string>
+              </property>
+              <property name="text">
+               <string>开闭系数</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="QLabel" name="label_36">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 125);
+font: 75 20pt &quot;黑体&quot;;</string>
+              </property>
+              <property name="text">
+               <string>Ma/T</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_37">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 125);
+background-color: rgb(184, 184, 255);
+font: 75 20pt &quot;黑体&quot;;</string>
+              </property>
+              <property name="text">
+               <string>标定重量</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="label_38">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 125);
+background-color: rgb(184, 184, 255);
+font: 75 20pt &quot;黑体&quot;;</string>
+              </property>
+              <property name="text">
+               <string>支持系数</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="label_39">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 125);
+background-color: rgb(184, 184, 255);
+font: 75 20pt &quot;黑体&quot;;</string>
+              </property>
+              <property name="text">
+               <string>标定重量</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="0">
+             <widget class="QLabel" name="label_40">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 125);
+background-color: rgb(184, 184, 255);
+font: 75 20pt &quot;黑体&quot;;</string>
+              </property>
+              <property name="text">
+               <string>动态系数</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLabel" name="label_42">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 125);
+font: 75 20pt &quot;黑体&quot;;</string>
+              </property>
+              <property name="text">
+               <string>T</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="2">
+             <widget class="QLabel" name="label_43">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 125);
+font: 75 20pt &quot;黑体&quot;;</string>
+              </property>
+              <property name="text">
+               <string>Ma/T</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="2">
+             <widget class="QLabel" name="label_44">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 125);
+font: 75 20pt &quot;黑体&quot;;</string>
+              </property>
+              <property name="text">
+               <string>T</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="2">
+             <widget class="QLabel" name="label_48">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 125);
+font: 75 20pt &quot;黑体&quot;;</string>
+              </property>
+              <property name="text">
+               <string>%</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLineEdit" name="OnOffCoefficientInput">
+              <property name="maximumSize">
+               <size>
+                <width>140</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(250, 255, 175);
+font: 75 20pt &quot;黑体&quot;;</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLineEdit" name="OFDemarcateWeightInput">
+              <property name="maximumSize">
+               <size>
+                <width>140</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(250, 255, 175);
+font: 75 20pt &quot;黑体&quot;;</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLineEdit" name="SupportCoefficientInput">
+              <property name="maximumSize">
+               <size>
+                <width>140</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(250, 255, 175);
+font: 75 20pt &quot;黑体&quot;;</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLineEdit" name="SDemarcateWeightInput">
+              <property name="maximumSize">
+               <size>
+                <width>140</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(250, 255, 175);
+font: 75 20pt &quot;黑体&quot;;</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="1">
+             <widget class="QLineEdit" name="DynamicCoefficientInput">
+              <property name="maximumSize">
+               <size>
+                <width>140</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(250, 255, 175);
+font: 75 20pt &quot;黑体&quot;;</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="2">
+             <spacer name="verticalSpacer_3">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>40</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="2" column="0">
+             <spacer name="verticalSpacer_4">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>40</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="5" column="0">
+             <spacer name="verticalSpacer_5">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>40</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+             <spacer name="verticalSpacer_8">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Maximum</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QPushButton" name="ModifyCoeOn">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 255);
+font: 75 20pt &quot;黑体&quot;;
+background-color: rgb(155, 200, 40);</string>
+              </property>
+              <property name="text">
+               <string>调系数</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer_7">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Maximum</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>60</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QPushButton" name="ModifyCoeSu">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 0, 255);
+font: 75 20pt &quot;黑体&quot;;
+background-color: rgb(155, 200, 40);</string>
+              </property>
+              <property name="text">
+               <string>调系数</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="verticalSpacer_6">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>100</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>258</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="BackToWorkBtn">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>300</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 255);
+font: 75 20pt &quot;黑体&quot;;
+background-color: rgb(155, 200, 40);</string>
+       </property>
+       <property name="text">
+        <string>退出</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
