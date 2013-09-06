@@ -24,6 +24,7 @@ public slots:
     
 private:
     Ui::CompleteWork *ui;
+
 };
 
 #endif // COMPLETEWORK_H
