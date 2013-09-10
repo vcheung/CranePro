@@ -98,15 +98,16 @@ private:
     bool IsManInput;
     bool IsWorking;
 
+    BaseFile *pWorkInfoFile;
+    RecordFile *pMRecordState;
+
+    WorkInfo SaveWorkInfo[3];
+    WRState mRecordState;
+    BackWorkInfo mBackWorkInfo;
+
     SerCurrentData W_mSerCurrentData;
     BreakInf W_mBreakInf;
     WorkInfo mNworkInfo;
-    BackWorkInfo mBackWorkInfo;
-    WorkInfo SaveWorkInfo[3];
-    BaseFile *pWorkInfoFile;
-    RecordFile *pMRecordState;
-    WRState mRecordState;
-
 };
 
 #endif // WORKWIDGET_H
